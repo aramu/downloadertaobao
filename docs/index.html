@@ -3,26 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <title>Js Taobao Image Downloader</title>
+    <style type="text/css">
+        div.bg {
+
+            position: relative;
+            background-color: black;
+            border-radius: 10px;
+            height: 100px;
+            width: 1200px;
+        }
+        code{
+            position: relative;
+            top: 20px;
+            left: 10px;
+            font-size: 15px;
+            font-family: inherit;
+            color: #ffffff;
+        }
+        span{
+            position: relative;
+            left: 10px;
+            bottom: 3px;
+        }
+    </style>
 </head>
 <body>
     <h1>复制储存为书签使用</h1>
     <div>
-        <span>mainImg</span>
-        <p>
+        <span>mainImg:</span>
+        <div class='bg'>
+        <code>
             javascript:!function(a){a?a.mainImg():function(a){var c=a.createElement("script");c.setAttribute("src","https://aramu.github.io/downloadertaobao/mainImg.btn.js"),c.setAttribute("charset","utf-8"),a.head.appendChild(c)}(document)}(window.downloader);
-        </p>
-    </div>
-    <div>
-        <span>detailImg</span>
-        <p>
+        </code>
+        </div>
+        <br />
+        <span>detailImg:</span>
+        <div class='bg'>
+        <code>
             javascript:!function(a){a?a.detailImg():function(a){var c=a.createElement("script");c.setAttribute("src","https://aramu.github.io/downloadertaobao/detailImg.btn.js"),c.setAttribute("charset","utf-8"),a.head.appendChild(c)}(document)}(window.downloader);
-        </p>
-    </div>
-    <div>
-        <span>styleImg</span>
-        <p>
+        </code>
+        </div>
+        <br />
+        <span>styleImg:</span>
+        <div class='bg'>
+        <code>
             javascript:!function(a){a?a.styleImg():function(a){var c=a.createElement("script");c.setAttribute("src","https://aramu.github.io/downloadertaobao/styleImg.btn.js"),c.setAttribute("charset","utf-8"),a.head.appendChild(c)}(document)}(window.downloader);
-        </p>
+        </code>
+        </div>
     </div>
 </body>
 </html>
